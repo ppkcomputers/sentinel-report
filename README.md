@@ -29,7 +29,7 @@ To use the automated threat reporting features, you must supply your own API key
 
 Open `SentinelReport.qml` in your editor and locate the `dispatchApis` function near the bottom of the file. Replace the placeholder strings with your personal API keys:
 
-```qml
+qml
     function dispatchApis(target) {
         apiProcess.rawResponse = "";
 
@@ -39,7 +39,7 @@ Open `SentinelReport.qml` in your editor and locate the `dispatchApis` function 
         var kasperskyKey = "YOUR_KASPERSKY_OPENTIP_KEY_HERE";
 
         var isIp = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/.test(target);
-        // ...
+        
 
 ## Dependencies
 
