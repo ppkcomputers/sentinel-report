@@ -2,7 +2,7 @@
 
 ![Sentinel Banner](sentinel.png)
 
-**Sentinel Threat Reporter** is a desktop On-Screen Display (OSD) and threat intelligence dispatch widget built with [Quickshell](https://outfoxxed.me/quickshell/) and QML. Designed for Wayland compositors (such as Hyprland), it allows security analysts, sysadmins, and Linux enthusiasts to quickly report or query malicious URLs and IP addresses across multiple security APIs and manual web portals simultaneously.
+Sentinel Threat Reporter is a Wayland OSD widget built with Quickshell and QML for Hyprland and other compositors. It lets sysadmins and analysts quickly report or query suspicious URLs and IP addresses across multiple threat intelligence APIs and security portals simultaneously.
 
 ---
 
