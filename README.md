@@ -29,7 +29,7 @@ To use the automated threat reporting features, you must supply your own API key
 
 Open `SentinelReport.qml` in your editor and locate the `dispatchApis` function near the bottom of the file. Replace the placeholder strings with your personal API keys:
 
-qml
+
     function dispatchApis(target) {
         apiProcess.rawResponse = "";
 
