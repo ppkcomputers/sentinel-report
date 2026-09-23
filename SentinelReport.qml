@@ -345,12 +345,14 @@ ShellRoot {
         }
     }
 
+//Include your own api key for these 3 websites
+
     function dispatchApis(target) {
         apiProcess.rawResponse = "";
 
-        var abuseKey     = "0096abf9bd86a110469ddd5ed19fbc0a627aa69c346208b5c58d565f2ca71d057054c450cd82739d";
-        var googleKey    = "AIzaSyDt4S6WNy3p3_LNTuYCmg5UDRvsgbn1zoc";
-        var kasperskyKey = "yGOHTASNRmu/9zfrCAr/+w==";
+        var abuseKey     = "put your api key";
+        var googleKey    = "put your api key";
+        var kasperskyKey = "put your api key";
 
         var isIp = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/.test(target);
 
