@@ -21,6 +21,26 @@
 
 ---
 
+## API Configuration
+
+To use the automated threat reporting features, you must supply your own API keys for **AbuseIPDB**, **Google Web Risk**, and **Kaspersky OpenTIP**.
+
+### Adding Your API Keys
+
+Open `SentinelReport.qml` in your editor and locate the `dispatchApis` function near the bottom of the file. Replace the placeholder strings with your personal API keys:
+
+```qml
+    function dispatchApis(target) {
+        apiProcess.rawResponse = "";
+
+        // Insert your API keys here:
+        var abuseKey     = "YOUR_ABUSEIPDB_API_KEY_HERE";
+        var googleKey    = "YOUR_GOOGLE_WEBRISK_KEY_HERE";
+        var kasperskyKey = "YOUR_KASPERSKY_OPENTIP_KEY_HERE";
+
+        var isIp = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/.test(target);
+        // ...
+
 ## Dependencies
 
 Before running Sentinel Threat Reporter, ensure you have the following installed on your system:
